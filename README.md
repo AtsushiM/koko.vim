@@ -1,5 +1,5 @@
 # koko.vim
-簡易Webサーバ用ツール、koko(http://qiita.com/items/cf8ffae04e6c530958c7)をVimから手軽に使えるようにするツールです。
+簡易Webサーバ用ツール、koko ( http://qiita.com/items/cf8ffae04e6c530958c7 ) をVimから手軽に使えるようにするツールです。
 別途kokoのインストールが必要になります。
 
 ---
