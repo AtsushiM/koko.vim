@@ -3,14 +3,14 @@
 "VERSION:  0.1
 "LICENSE:  MIT
 
-if exists("g:loaded_koko_cmd")
+if exists("g:loaded_koko")
     finish
 endif
-let g:loaded_koko_cmd = 1
+let g:loaded_koko = 1
 
 let s:save_cpo = &cpo
 set cpo&vim
 
-command! KokoOpen call kokocmd#Open()
+command! KokoOpen call koko#Open()
 
 let &cpo = s:save_cpo

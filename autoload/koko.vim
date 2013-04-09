@@ -6,7 +6,7 @@
 let s:save_cpo = &cpo
 set cpo&vim
 
-function! kokocmd#Open()
+function! koko#Open()
     let org = getcwd()
     let dir = expand('%:p:h')
 
